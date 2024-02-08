@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+hr {
+    display: block;
+
+    width: 100%;
+    border-top: 0.1px solid;
+    color: hsl(30, 18%, 87%);
+    margin: 10px 0;
+    padding: 0;
+}
+
+.recipe-card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 500px;
+    padding: 60px;
+}
+
+.omlette-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: hsl(24, 5%, 18%);
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Outfit', serif;
+    font-weight: 400px;
+    margin-bottom: 35px;
+
+}
+
+.head p {
+    color: hsl(30, 10%, 34%);
+}
+
+
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+    font-family: 'Outfit', serif;
+    margin: auto 60px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+
+}
+
+.time h3 {
+    padding: 0 20px;
+    margin-bottom: 5px;
+    color: hsl(332, 51%, 32%);
+}
+
+.time ul {
+    list-style-position: outside;
+    /* Ensure bullets are outside the content flow */
+    margin-left: 40px;
+    /* Add space for the entire list from the left side */
+    padding-left: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.time li {
+    padding-left: 20px;
+    /* Add padding to the left of list items, pushing text away from bullets */
+    margin-bottom: 15px;
+    /* Add space between list items */
+    font-size: 14px;
+}
+
+.time ul span {
+    color: hsl(30, 10%, 34%);
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.body h2 {
+    margin-top: 10px;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 0px;
+}
+
+.body {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit', serif;
+    font-weight: 400px;
+}
+
+.body span {
+    color: hsl(30, 10%, 34%);
+}
+
+.body ul {
+    list-style-position: outside;
+    /* Ensure bullets are outside the content flow */
+    margin-left: -10px;
+    /* Add space for the entire list from the left side */
+}
+
+.body li {
+    padding-left: 20px;
+    /* Add padding to the left of list items, pushing text away from bullets */
+    margin-bottom: 15px;
+    /* Add space between list items */
+}
+
+.body ol {
+    margin-left: -10px;
+    /* Add space for the entire list from the left side */
+}
+
+.body p{
+    color: hsl(30, 10%, 34%);
+
+} 
+
+table{
+    width: 100%;
+    margin-bottom: 16px;
+}
+ table th{
+    color: hsl(14, 45%, 36%);
+}
+ table td{
+    padding-left: 30px;
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 18%, 87%); 
+}
+ table th {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 18%, 87%); 
+}
+
+
+.attribution {
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+
+}
